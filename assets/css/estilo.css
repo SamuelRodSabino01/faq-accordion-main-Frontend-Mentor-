@@ -12,6 +12,9 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
 }
+.principal{
+    margin-top: 10%;
+}
 .conteudo{
     background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
@@ -24,7 +27,7 @@ body{
     color: hsl(292, 42%, 14%);
 }
 .title span{
-    font-size: 500%;
+    font-size: 400%;
 }
 .title img{
     margin-right: 5%;
