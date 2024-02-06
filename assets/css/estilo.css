@@ -15,6 +15,7 @@ body{
 .conteudo{
     background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
+    box-shadow: -2px 3px 35px -4px rgba(140,105,145,0.8);
 }
 .title{
     display: flex;
@@ -34,4 +35,10 @@ body{
 .accordion-item button{
     font-style: bold;
     color: hsl(292, 42%, 14%);
+}
+.accordion-item button:hover{
+    color: hsl(293, 100%, 50%);
+}
+.accordion-button:not(.collapsed) {
+    background-color: #fff;
 }
