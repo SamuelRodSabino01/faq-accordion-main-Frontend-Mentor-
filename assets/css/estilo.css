@@ -6,3 +6,32 @@
     text-decoration: none;
     font-family: 'Work Sans';
 }
+body{
+    background-image: url('../images/background-pattern-desktop.svg');
+    background-color: hsl(275, 100%, 97%);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.conteudo{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+}
+.title{
+    display: flex;
+    align-items: center;
+    font-style: bold;
+    color: hsl(292, 42%, 14%);
+}
+.title span{
+    font-size: 500%;
+}
+.title img{
+    margin-right: 5%;
+}
+.accordion-item{
+    border: none;
+}
+.accordion-item button{
+    font-style: bold;
+    color: hsl(292, 42%, 14%);
+}
